@@ -6,8 +6,16 @@ import { addCategory } from './actions';
 const AddCategoryContainer = styled.div`
   margin-top: 12px;
   padding: 12px;
+  padding-bottom: 15px;
   background: linear-gradient(175deg, #d1f3fd,#3a526d);
-  border: 1px solid #7f5974;
+  background: linear-gradient(rgba(249, 249, 249, 0.8),
+    rgba(249, 249, 249, 0.1) 16%,
+    rgba(249, 249, 249, 0.1) 20%,
+    rgba(249, 249, 249, 0.3) 80%,
+    rgba(230, 230, 230, 0.3)) top left,
+    linear-gradient(175deg, #d1f3fd,#3a526d) top left;
+  border: 1px solid #ab93a4;
+  border-radius: 3px;
 `;
 
 const AddCategoryInput = styled.input`

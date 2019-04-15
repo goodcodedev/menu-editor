@@ -6,10 +6,17 @@ import { ensureInView } from './util';
 
 const FormContainer = styled.div`
   padding: 12px;
+  padding-bottom: 15px;
   background: linear-gradient(#cbf9bc, #86b37c);
   border: 1px solid #dee4db;
-  background-image: linear-gradient(175deg, #fff,#d2d2c3);
-  border: 1px solid #627fd8
+  background: linear-gradient(rgba(249, 249, 249, 0.8),
+    rgba(249, 249, 249, 0.1) 16%,
+    rgba(249, 249, 249, 0.1) 20%,
+    rgba(249, 249, 249, 0.3) 80%,
+    rgba(230, 230, 230, 0.3)) top left,
+    linear-gradient(175deg, #fff,#d2d2c3) top left;
+  border: 1px solid #a0aacc
+  border-radius: 3px;
 `;
 
 const FormHeader = styled.h3`
