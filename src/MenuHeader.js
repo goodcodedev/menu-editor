@@ -6,8 +6,9 @@ const MenuHeaderContainer = styled.div`
   width: 550px;
   height: 42px;
   background: linear-gradient(rgb(164, 164, 212),rgb(66, 66, 132));
+  background: rgb(84, 84, 148);
   text-align: right;
-  padding: 8px;
+  padding: 8px 8px 8px 12px;
   position: fixed;
   top: 0;
   display: flex;

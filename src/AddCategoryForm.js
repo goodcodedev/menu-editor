@@ -6,8 +6,8 @@ import { addCategory } from './actions';
 const AddCategoryContainer = styled.div`
   margin-top: 12px;
   padding: 12px;
-  background: linear-gradient(#97dcff,#6e859c);
-  border: 1px solid #dee4db;
+  background: linear-gradient(175deg, #d1f3fd,#3a526d);
+  border: 1px solid #7f5974;
 `;
 
 const AddCategoryInput = styled.input`

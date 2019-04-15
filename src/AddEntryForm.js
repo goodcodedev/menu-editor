@@ -8,6 +8,8 @@ const FormContainer = styled.div`
   padding: 12px;
   background: linear-gradient(#cbf9bc, #86b37c);
   border: 1px solid #dee4db;
+  background-image: linear-gradient(175deg, #fff,#d2d2c3);
+  border: 1px solid #627fd8
 `;
 
 const FormHeader = styled.h3`

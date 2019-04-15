@@ -142,7 +142,12 @@ function reducer(state, action) {
       );
       state.cats[action.categoryId].dishes.splice(idx, 1);
       delete state.dishes[action.dishId];
-      return { ...state, dishes: { ...state.dishes }, edited: true };
+      return {
+        ...state,
+        cats: { ...state.cats },
+        dishes: { ...state.dishes },
+        edited: true
+      };
     default:
       return state;
   }

@@ -14,6 +14,7 @@ const DishContainer = styled.div`
   padding-bottom: 16px;
   background: linear-gradient(#f2f5ff, #fff 80%, #fff);
   border: 1px solid #e7eaf3;
+  border-radius: 2px;
 `;
 
 const EntryIcon = styled.img`
